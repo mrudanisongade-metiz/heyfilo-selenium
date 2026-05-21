@@ -318,9 +318,12 @@ if __name__ == "__main__":
     # Example usage with view_dashboard
     from view_dashboard import view_dashboard
     
-    EMAIL = "faxalo9964@itquoted.com"
-    PASSWORD = "Test@123"
+    # EMAIL = "faxalo9964@itquoted.com"
+    # PASSWORD = "Test@123"
     
+    EMAIL = "mrudani.songade@metizsoft.com"
+    PASSWORD = "Test@123"
+
     driver = view_dashboard(EMAIL, PASSWORD, headless=False)
     
     if driver:

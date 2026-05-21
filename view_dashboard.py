@@ -139,7 +139,10 @@ def view_dashboard(email, password, headless=False):
 
 if __name__ == "__main__":
     # Example usage
-    EMAIL = "faxalo9964@itquoted.com"
+    # EMAIL = "faxalo9964@itquoted.com"
+    # PASSWORD = "Test@123"
+
+    EMAIL = "mrudani.songade@metizsoft.com"
     PASSWORD = "Test@123"
     
     driver = view_dashboard(EMAIL, PASSWORD, headless=False)
